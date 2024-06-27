@@ -1,6 +1,6 @@
 # Holes-Locator
 
-This project uses OpenCV to detect holes in a video feed and calculates the angle of rotation needed to align one of the holes to a specified initial point. The angle is then mapped to an analog value in the range of 0 to 255, which can be used for further processing or control.
+This application uses OpenCV to detect holes in a video feed and calculates the angle of rotation of the ring needed to align one of the holes to a specified initial point. The angle is then mapped to an analog value in the range of 0 to 255, which can be used for further processing or control.
 
 ## Table of Contents
 - [Introduction](#introduction)

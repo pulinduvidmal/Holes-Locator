@@ -20,11 +20,12 @@ The goal of this project is to detect holes in a video feed from a camera and ca
 ## Installation
 1. Clone the repository:
    \`\`\`bash
-   git clone https://github.com/pulinduvidm/circle-detection-and-angle-calculation.git
-   cd circle-detection-and-angle-calculation
+   git clone https://github.com/pulinduvidmal/Holes-Locator.git
+   
+   cd Holes-Locator
    \`\`\`
 
-2. Install the required packages:
+3. Install the required packages:
    \`\`\`bash
    pip install -r requirements.txt
    \`\`\`

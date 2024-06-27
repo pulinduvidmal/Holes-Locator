@@ -22,17 +22,15 @@ The goal of this project is to detect holes in a video feed from a camera and ca
    ```bash
    git clone https://github.com/pulinduvidmal/Holes-Locator.git
    cd Holes-Locator
-
+   
 3. Install the required packages:
    ```bash
    pip install -r requirements.txt
    
-
 ## Usage
 1. Run the script:
    ```bash
    python main.py
-
 
 2. The script will open a window displaying the video feed. It will detect circles and draw them on the frame along with the calculated vertical displacement and rotation angle.
 

@@ -81,9 +81,9 @@ while True:
             cv2.putText(frame, f'Rotation Angle: {rotation_angle:.2f} deg', (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
 
             # Print the distance and angle in the terminal
-            print(f'Delta Y: {min_delta_y:.2f}, Rotation Angle: {rotation_angle:.2f} degrees')
+            # print(f'Delta Y: {min_delta_y:.2f}, Rotation Angle: {rotation_angle:.2f} degrees')
 
-            def map_angle_to_analog(angle, min_angle=-30, max_angle=30, min_output=0, max_output=255):
+            def map_angle_to_analog(angle, min_angle=-15, max_angle=15, min_output=0, max_output=255):
                 # Ensure the angle is within the specified range
                 if angle < min_angle:
                     angle = min_angle
